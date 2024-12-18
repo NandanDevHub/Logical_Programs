@@ -4,6 +4,6 @@ public class Constants
 {
     public static List<string> ProgramList = new()
     {
-        "helloworld"
+        "helloworld", "sumtwonum" , "evenorodd"
     };
 }

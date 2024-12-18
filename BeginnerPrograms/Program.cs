@@ -13,7 +13,19 @@ class Program
        switch (userInput)
        {
            case "helloworld":
+               Console.WriteLine();
                var helloWorld = new HelloWorld();
+               break;
+           case "sumtwonum":
+               Console.WriteLine();
+                var newsum = new SumTwoNums();
+               break;
+           case "evenorodd":
+               Console.WriteLine();
+               var evenodd = new EvenOrOdd();
+               break;
+           default:
+               Console.WriteLine("Invalid Option Entered");
                break;
        }
     }
