@@ -2,7 +2,7 @@ namespace BeginnerPrograms;
 
 public class HelloWorld
 {
-    public HelloWorld()
+    public void HelloWorldText()
     {
         Console.WriteLine("Hello, World");
     }
